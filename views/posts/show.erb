@@ -1,0 +1,6 @@
+<article>
+	<h3><a href="/posts/<%= @post.id %>"><%= @post.title %></a></h3>
+	<h6 class="tighten"><span class="noblack">Written by </span><a href="#"><%= @post.author %></a><span class="noblack"> on <%=pretty_date(@post.created_at) %></span></h6> <br>
+	<img src="<%= @post.img %>">
+	<p class="seperate noblack"><%= @post.body %></p>
+</article>

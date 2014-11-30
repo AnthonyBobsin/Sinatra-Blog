@@ -1,0 +1,26 @@
+.button-group .button {
+	width: 120px;
+}
+#side-sticky {
+	width: 60%;
+	position: fixed;
+	margin-left: 55%;
+}
+
+.seperate {
+	margin: 30px 5px 5px 5px;
+	letter-spacing: 1.1px;
+
+}
+.noblack {
+	color: #6f6f6f;
+}
+
+.tighten {
+	margin: -15px 0px 10px 15px;
+	padding: 0;
+}
+
+body {
+	letter-spacing: 1.1px;
+}
