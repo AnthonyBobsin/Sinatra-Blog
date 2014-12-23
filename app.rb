@@ -1,7 +1,6 @@
 require "sinatra"
 require "sinatra/activerecord"
-
-set :database, "sqlite3:///blog.db"
+require './environments.rb'
 
 class Post < ActiveRecord::Base
 	validate :title, presence: true, length: { minimum: 3 }

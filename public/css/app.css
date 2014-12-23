@@ -1,11 +1,6 @@
 .button-group .button {
 	width: 120px;
 }
-#side-sticky {
-	width: 60%;
-	position: fixed;
-	margin-left: 55%;
-}
 
 .seperate {
 	margin: 30px 5px 5px 5px;
